@@ -7,12 +7,12 @@
  * @Description:    This is the main file for the project.
  *                  C program which will run in a UNIX multiprocessor process. 
                     The program will read in two Numbers: A and B from the user 
-                    and compute 3 different results: A+B, A-B and A*B.
+                    and compute 3 different results: A + B, A - B and A * B.
                     The program will Forks 2 other processes in order to do all 3 operations simultaneously.
                     The program will display the results, The program should print the results in the following format:
-                    A+B = Addition
-                    A-B = Subtraction
-                    A*B = Multiplication
+                    A + B = Addition
+                    A - B = Subtraction
+                    A * B = Multiplication
                     Check the sequence of the three operations in your program 
                     and the order of appearance of the results in the screen.
                     Check the results with the sequential version of the program.
@@ -104,6 +104,7 @@ int main()
         exit(0);
     }
 
+    // Parent process waits for the children to finish
    else
     {
         // This computes the multiplication
