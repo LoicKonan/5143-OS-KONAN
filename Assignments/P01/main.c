@@ -110,6 +110,9 @@ int main()
         // This computes the multiplication
         Multiplication = A * B;
 
+        // This prints the multiplication process id
+        printf("Multiplication process id: %d \n", getpid());
+
         // This prints the multiplication
         printf("Multiplication: A * B = %d \r \n", Multiplication);
 
