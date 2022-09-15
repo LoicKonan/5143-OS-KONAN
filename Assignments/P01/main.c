@@ -18,8 +18,8 @@
                     Check the results with the sequential version of the program.
 
 
-* @Comments:        It seems like the sometimes the addition is done first and other time the subtraction is done first,
-                    but the multiplication is always done last.
+* @Comments:        It seems like there is no order on how the results are printed on the screen, sometimes it shows addition process id first,
+                    sometimes it is the multiplication id first or the result of the multiplication first. it just not consistent.
  */
 
 
