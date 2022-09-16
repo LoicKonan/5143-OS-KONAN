@@ -16,10 +16,10 @@
 
 ### Files
 
-|   #   | File                         | Description                                |
-| :---: | ---------------------------- | ------------------------------------------ |
-|   1   | [main.c](main.c)         | The main cpp with comments and description |
-                                |
+|   #   | File             | Description                                |
+| :---: | ---------------- | ------------------------------------------ |
+|   1   | [main.c](main.c) | The main cpp with comments and description |
+|       |
 
 ### Instructions
 
