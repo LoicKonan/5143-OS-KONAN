@@ -124,8 +124,6 @@ int main()
         // This waits for the second child to finish
         waitpid(-1, &status, 0);
     }
-
-
     // This exits the parent
     exit(0);
 }
