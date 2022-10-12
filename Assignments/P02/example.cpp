@@ -27,8 +27,10 @@ int main()
   {
     infile >> address;
     newAddress = true;
-    if(address.length() != 8){
-      if (address.length() < 8){
+    if(address.length() != 8)
+    {
+      if (address.length() < 8)
+      {
         num_of_zeros = 8 - address.length();
         address = string(num_of_zeros, '0').append(address);
       }
@@ -56,6 +58,5 @@ int main()
   cout << "Total Pages Used: " << Address.size() << "\n";
   cout << "Average number of accesses: " << average << "\n";
 
-  //system("pause");
   return 0;
 }

@@ -128,7 +128,6 @@ int main()
 
     }
 
-
     cout << "Hits: " << Hits << endl;
     cout << "Misses: " << Misses << endl;
 
