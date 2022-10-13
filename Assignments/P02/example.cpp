@@ -21,7 +21,7 @@ int main()
 
   ifstream infile;
 
-  infile.open("spice.txt");
+  infile.open("spice1.txt");
 
   while(infile >> code)
   {
@@ -53,10 +53,8 @@ int main()
       Address.push_back(address);
     }
   }
-  average = 1000000.0 / (double)Address.size();
 
   cout << "Total Pages Used: " << Address.size() << "\n";
-  cout << "Average number of accesses: " << average << "\n";
 
   return 0;
 }
