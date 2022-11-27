@@ -16,12 +16,12 @@
 
 |   #   | File                         | Description                                |
 | :---: | ---------------------------- | ------------------------------------------ |
-|   1   | [main.cpp](main.cpp)         | The main cpp with comments and description |
-|   2   | [README.md](README.md)       | The readme file                            |
-|   3   | [spice.txt](spice.txt)       | The [spice.txt file                        |
-|   4   | [spice1.txt](spice1.txt)     | The [spice2.txt file                       |
-|   5   | [spice2.txt](spice2.txt)     | The [spice3.txt file                       |
-|   6   | [spice3.txt](spice3.txt)     | The [spice4.txt file                       |
+|   1   | [main.cpp](main.cpp)         | The main cpp with comments and description.|
+|   2   | [README.md](README.md)       | The readme file.                           |
+|   3   | [spice.txt](spice.txt)       | The main input file.                       |
+|   4   | [spice1.txt](spice1.txt)     | The input file 2                           |
+|   5   | [spice2.txt](spice2.txt)     | The input file 3                           |
+|   6   | [spice3.txt](spice3.txt)     | The input file 4                           |
 
 ### Instructions
 
@@ -46,10 +46,9 @@ gcc main.cpp -o main
 
 ```bash
 
-$ ./main
+./main
 
 ```
-
 
 ### Example Output
 
@@ -58,7 +57,6 @@ Page replacement: **FIFO**
 Number of page faults:  **4607**
 Number of hits:  **995394**
 Total time:  **1136700**
-
 
 Page size: **2048**
 Page replacement: **LRU**
