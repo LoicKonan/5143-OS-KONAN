@@ -28,11 +28,11 @@ next _80_**
 
 ### Files
 
-|   #   | File                         | Description                                |
-| :---: | ---------------------------- | ------------------------------------------ |
-|   1   | [main.cpp](main.cpp)         | The main cpp with comments and description |
-|   2   | [README.md](README.md)       | The readme file                            |
-|   3   | [input](input)               | The input file                             |
+|   #   | File                   | Description                                |
+| :---: | ---------------------- | ------------------------------------------ |
+|   1   | [main.c](main.c)       | The main cpp with comments and description |
+|   2   | [README.md](README.md) | The readme file                            |
+|   3   | [input](input)         | The input file                             |
 
 ### Instructions
 
