@@ -36,12 +36,6 @@ gcc main.cpp -o main
 
 - To run the program, run the following command in the terminal:
 
-```bash
-
-./main
-
-```
-
 ### Example Command
 
 ```bash
